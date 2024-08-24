@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  background-color: #e0f7da; 
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #0a641d; 
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+.App-header h1 {
+  font-family: 'Courier New', Courier, monospace; 
+  margin: 0;
+  font-size: 3rem;
+}
+
+
+.recipe-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.04); 
+}
+
+.recipe-card h2 {
+  color: #083f08; 
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.recipe-card h3 {
+  color: #10ce10;  
+  margin-bottom: 10px;
+}
+
+.recipe-card ul {
+  list-style-type: none;
+  padding: 1px;
+  color: #333333;
+}
+
+.recipe-card li {   /* ingredients */
+  background-color: #c7eec7; 
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.recipe-card p { /* instructions */
+  background-color: #f0f8e0;  
+  padding: 15px;
+  border-radius: 10px;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+.sushi-image {
+  width: 15px;  
+  height: 15px;  
+  margin-bottom: 10px;
+  border-radius: 10px;  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+.ap-image{
+  width: 15px;  
+  height: 15px;  
+  margin-bottom: 10px;
+  border-radius: 10px;  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+.App-footer{
+  font-family: 'Courier New', Courier, monospace; 
+  margin: 0;
+  font-size: 0.91rem;
+}
